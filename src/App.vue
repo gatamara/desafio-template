@@ -77,7 +77,7 @@ const fontSize = computed(() => {
   } else if (picked.value === 'grande') {
     return '48px';
   }
-  return '24px';
+  return '32px';
 });
 </script>
 
@@ -110,8 +110,6 @@ const fontSize = computed(() => {
   width: 300px;
   padding-right: 20px;
 }
-
-
 
 .blur-effect {
   filter: blur(5px);
